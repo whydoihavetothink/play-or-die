@@ -116,13 +116,14 @@ export function Navbar() {
     >
       <div className="flex px-4">
         <div className="container flex items-center justify-between mx-auto">
-          <div className="relative w-40 h-10 overflow-hidden flex justify-center items-center">
+          <div className="relative h-10 overflow-hidden flex justify-center items-center"
+          style={{ width: "14rem" }}>
             <Image
-              width={1200}
-              height={1200}
-              src="/media/PoD-logo-argy-bigSkull-2.png"
+              src="/media/PoD-logo-argy-bigSkull.svg"
               alt="Play Or Die"
-              className="absolute w-40 h-full object-cover"
+              width={320}
+              height={320}
+              className="object-cover"
             />
           </div>
           <ul
@@ -138,8 +139,8 @@ export function Navbar() {
           </ul>
           <div className="hidden items-center gap-4 lg:flex">
             <a href={TICKETS_LINK} target="_blank">
-            <Button
-              variant="outlined"
+              <Button
+                variant="outlined"
                 style={{
                   color: SECONDARY_COLOR_RAW,
                   borderColor: SECONDARY_COLOR_RAW,
@@ -192,7 +193,7 @@ export function Navbar() {
           <div className="mt-6 flex items-center gap-4">
             <a href={TICKETS_LINK} target="_blank">
               <Button
-              variant="outlined"
+                variant="outlined"
                 style={{
                   color: SECONDARY_COLOR_RAW,
                   borderColor: SECONDARY_COLOR_RAW,
