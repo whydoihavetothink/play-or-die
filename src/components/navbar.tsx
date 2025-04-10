@@ -71,7 +71,7 @@ export function Navbar() {
     {
       name: t("gallery"),
       icon: IconLibraryPhoto,
-      href: "https://www.instagram.com/pulsewave_presents/",
+      href: "https://www.instagram.com/playordie_official/",
     },
     {
       name: t("partners"),
@@ -120,8 +120,8 @@ export function Navbar() {
             <Image
               width={1200}
               height={1200}
-              src="/media/Pulsewave-Logo-Transparent-BG.png"
-              alt="Pulsewave"
+              src="/media/PoD-logo-argy-bigSkull-2.png"
+              alt="Play Or Die"
               className="absolute w-40 h-full object-cover"
             />
           </div>

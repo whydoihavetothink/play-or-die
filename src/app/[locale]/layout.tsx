@@ -17,9 +17,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Pulsewave",
+  title: "Play Or Die",
   description:
-    "At Pulsewave, we specialize in creating extraordinary events in some of the most unique and unexpected venues. We turn iconic spaces into unforgettable experiences.",
+    "At Play Or Die, we specialize in creating extraordinary events in some of the most unique and unexpected venues. We turn iconic spaces into unforgettable experiences.",
 };
 
 export default async function RootLayout({

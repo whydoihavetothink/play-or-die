@@ -43,7 +43,7 @@ export function Footer() {
           </ul>
           <div className="flex w-fit justify-center gap-2">
             <a
-              href="https://www.instagram.com/pulsewave_presents/"
+              href="https://www.instagram.com/playordie_official/"
               target="_blank"
             >
               <IconButton
@@ -66,7 +66,7 @@ export function Footer() {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          Pulsewave &copy; {CURRENT_YEAR}
+          Play Or Die &copy; {CURRENT_YEAR}
         </Typography>
       </div>
     </footer>
