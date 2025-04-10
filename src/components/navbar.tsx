@@ -117,9 +117,9 @@ export function Navbar() {
       <div className="flex px-4">
         <div className="container flex items-center justify-between mx-auto">
           <div className="relative h-10 overflow-hidden flex justify-center items-center"
-          style={{ width: "14rem" }}>
+          style={{ width: "5rem" }}>
             <Image
-              src="/media/PoD-logo-argy-bigSkull.svg"
+              src="/media/PoD-logo-argy-bigSkull-cropped.svg"
               alt="Play Or Die"
               width={320}
               height={320}
